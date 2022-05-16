@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Border and Padding</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="px-4 py-4 bg-purple-900 text-white">
-        <!-- As this mx-54 gives us the margiun of 4px  -->
-        <ul class="flex">
-        <li class="mx-2 cursor-pointer font-sans">Home</li>
-        <li class="mx-2 cursor-pointer">About</li>
-        <li class="mx-2 cursor-pointer">Services</li>
-        </ul>
-    </nav>
-    <div class="container">
-        <h1 class="text-3xl font-bold underline px-4 bg-red-400 my-12 py-4">
-            This is blue text 
-        </h1>
+    <nav>
+        <ul class="flex space-x-3 space-y-4 hover:cursor-pointer">
+            <li></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Conatnct</li>
 
+        </ul>
+
+
+    </nav>
+    <div class="w-60 mx-8 px-8 bg-red-300 rounded-xl border-4 border-cyan-400 hover:cursor-progress">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quibusdam voluptates explicabo dolore commodi odio deleniti, exercitationem excepturi illo tenetur ut ea.
+    </div>
+
+    <h1 class="text-center font-bold">square bracket notation</h1>
+    <div class="mx-4 bg-red-400 text-white my-[67px]">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, enim est.
     </div>
 </body>
 </html>
